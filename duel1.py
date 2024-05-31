@@ -243,7 +243,7 @@ class DQNAgent:
 
 if __name__ == "__main__":
 
-    env = gym.make('CartPole-v0')
+    env = gym.make('CartPole-v1')
 
     max_episodes = 1000  # people are running for 3000 episodes
     targetNetworkUpdateFreq = 10
